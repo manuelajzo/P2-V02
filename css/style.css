@@ -1,4 +1,4 @@
-.visually-hidden,
+ .visually-hidden,
 .visually-hidden-focusable:not(:focus):not(:focus-within) {
     position: absolute !important;
     width: 1px !important;
@@ -18,7 +18,7 @@
 }
 
 body {
-    width: 90%;
+    margin: 0 !important;
     margin: auto;
 }
 
@@ -117,15 +117,7 @@ header div h1 a{
     font-weight: 400;
 }
 
-/* .see-more {
-    background-color: #16001e;
-    color: #f3cec7;
-    width: 40%;
-    border-radius: 5px;
-    border: none;
-    margin-bottom: 2em;
-    text-decoration: none;
-} */
+
 
 .see-more:hover, form button:hover {
     background-color: #8d524b !important;
@@ -228,6 +220,10 @@ legend {
     margin-top: 1em;
 }
 
+.row {
+    margin-right: unset !important;
+}
+
 @media screen and (min-width: 1400px) {
     .about p{
         width: 80%;
@@ -315,4 +311,15 @@ legend {
         margin-bottom: 0.5em;
     }
     
-}
+}   
+
+
+/* .see-more {
+    background-color: #16001e;
+    color: #f3cec7;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2em;
+    text-decoration: none;
+} */
