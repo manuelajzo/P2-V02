@@ -190,6 +190,8 @@ picture {
     font-size: 1em;
     color: #8d524b;
     text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 footer {
@@ -250,6 +252,10 @@ legend {
 
     .about {
         width: 100%;
+    }
+
+    .about p {
+        text-align: center;
     }
 
     form{
